@@ -1,0 +1,286 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="tree-use-case" name="Сайт с тестами — дерево Use Case">
+    <mxGraphModel dx="5329" dy="3426" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2300" pageHeight="1750" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZWIknfvwCC6953TTr5zp-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingTop=14;spacingLeft=16;fontSize=20;fontStyle=1;strokeWidth=2;" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; " vertex="1">
+          <mxGeometry height="1640" width="1250" x="-460" y="-240" as="geometry" />
+        </mxCell>
+        <mxCell id="t_courses" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="Курсы и студенты" vertex="1">
+          <mxGeometry height="45" width="135" x="-360" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="t_questions" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="Создать и управлять&lt;br&gt;вопросами" vertex="1">
+          <mxGeometry height="70" width="170" x="142.5" y="-105" as="geometry" />
+        </mxCell>
+        <mxCell id="t_tests" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="Создать и редоктировать&lt;br&gt;тест" vertex="1">
+          <mxGeometry height="65" width="180" x="-180" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="t_assign" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="Тест и группы" vertex="1">
+          <mxGeometry height="65" width="180" x="-160" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="t_review" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="Проверить ответы&lt;br&gt;и опубликовать результаты" vertex="1">
+          <mxGeometry height="70" width="180" x="-145" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="t_settings" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="Профиль и настройки" vertex="1">
+          <mxGeometry height="45" width="190" x="-220" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="t_view_courses" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="Просмотреть назначенные&lt;br&gt;группы и курсы" vertex="1">
+          <mxGeometry height="45" width="150" x="-290" y="-200" as="geometry" />
+        </mxCell>
+        <mxCell id="t_view_student" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="Просмотреть данные студента,&lt;br&gt;оценки и результаты тестов" vertex="1">
+          <mxGeometry height="70" width="180" x="-100" y="-180" as="geometry" />
+        </mxCell>
+        <mxCell id="t_question_type" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1;align=center;" value="&lt;div style=&quot;line-height: 110%;&quot;&gt;Выбрать тип вопроса:&lt;br&gt;один или несколько ответов&lt;br&gt;верно/неверно,&lt;br&gt;короткий ответ, загрузка файла&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="220" x="350" y="-230" as="geometry" />
+        </mxCell>
+        <mxCell id="t_question_content" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="Указать вариант ответа,&lt;br&gt;правильный ответ и баллы" vertex="1">
+          <mxGeometry height="60" width="180" x="550" y="-110" as="geometry" />
+        </mxCell>
+        <mxCell id="t_question_media" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="Добавить изображение,&lt;br&gt;аудио или формулу" vertex="1">
+          <mxGeometry height="60" width="180" x="580" y="-50" as="geometry" />
+        </mxCell>
+        <mxCell id="t_question_manage" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="редактировать или удалить вопрос" vertex="1">
+          <mxGeometry height="60" width="180" x="410" y="93" as="geometry" />
+        </mxCell>
+        <mxCell id="t_test_content" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="Указать название&amp;nbsp;&lt;div&gt;и описание&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="160" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="t_test_settings" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="&amp;nbsp;длительность,&lt;br&gt;сроки и доступность теста" vertex="1">
+          <mxGeometry height="60" width="180" x="157.5" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t_test_options" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="Настроить&lt;br&gt;авто- или ручную проверку" vertex="1">
+          <mxGeometry height="60" width="180" x="160" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="t_assign_to" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="Назначить тест курсу,&lt;br&gt;группе или студентам" vertex="1">
+          <mxGeometry height="52.5" width="180" x="180" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="t_assign_status" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="Указать даты начала и окончания теста" vertex="1">
+          <mxGeometry height="60" width="180" x="170" y="319" as="geometry" />
+        </mxCell>
+        <mxCell id="t_answers" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="Просмотреть ответы студентов&lt;br&gt;и проверить автоматические оценки" vertex="1">
+          <mxGeometry height="70" width="240" x="200" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="t_publish_results" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="Опубликовать результаты&lt;br&gt;студентам" vertex="1">
+          <mxGeometry height="52.5" width="180" x="230" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="t_profile" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="Изменить профиль&lt;br&gt;и способ входа" vertex="1">
+          <mxGeometry height="60" width="200" x="35" y="729" as="geometry" />
+        </mxCell>
+        <mxCell id="t_notifications" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="Настроить уведомления:&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="52.5" width="190" x="5" y="601.25" as="geometry" />
+        </mxCell>
+        <mxCell id="t_language" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="Изменить язык интерфейса" vertex="1">
+          <mxGeometry height="60" width="200" x="220" y="669" as="geometry" />
+        </mxCell>
+        <mxCell id="s_courses_tests" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="Курсы&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="180" x="-75" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="s_take_test" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="Пройти тест" vertex="1">
+          <mxGeometry height="52.5" width="180" x="-250" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="s_results" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="Просмотреть результаты&lt;br&gt;и ошибки" vertex="1">
+          <mxGeometry height="60" width="180" x="-420" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="s_view_courses" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="Просмотреть свои курсы&lt;br&gt;и группу" vertex="1">
+          <mxGeometry height="52.5" width="135" x="337.5" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="s_view_tests" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="Просмотреть назначенные тесты,&lt;br&gt;сроки и условия" vertex="1">
+          <mxGeometry height="52.5" width="135" x="420" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="s_recovery" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="Отправить результат" vertex="1">
+          <mxGeometry height="52.5" width="180" x="105" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="s_view_results" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="Просмотреть результаты теста" vertex="1">
+          <mxGeometry height="45" width="150" x="-85" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="s_view_mistakes" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="Просмотреть свои ошибки" vertex="1">
+          <mxGeometry height="52.5" width="170" x="-100" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="a_accounts" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="Управление учетными записями" vertex="1">
+          <mxGeometry height="65" width="160" x="-150" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="a_students_groups" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="Управление группами&amp;nbsp;" vertex="1">
+          <mxGeometry height="52.5" width="150" x="-225" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="a_manage_accounts" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="Управлять учётными записями&lt;br&gt;и правами доступа" vertex="1">
+          <mxGeometry height="70" width="170" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="a_add_remove_students" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="Добавлять и удалять студентов" vertex="1">
+          <mxGeometry height="60" width="170" x="-260" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="a_manage_groups" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="Добавлять группы&lt;br&gt;и перемещать студентов" vertex="1">
+          <mxGeometry height="60" width="160" x="-430" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="a_import_students" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="Импортировать список студентов&lt;br&gt;в группу" vertex="1">
+          <mxGeometry height="65" width="160" x="-180" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="ta1" edge="1" parent="1" source="ZWIknfvwCC6953TTr5zp-8" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontStyle=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="t_courses">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-290" y="360" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ta3" edge="1" parent="1" source="ZWIknfvwCC6953TTr5zp-8" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontStyle=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t_tests">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-250" y="345.517241" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ta6" edge="1" parent="1" source="ZWIknfvwCC6953TTr5zp-8" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontStyle=1" target="t_settings">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-250" y="402.03251999999975" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sa1" edge="1" parent="1" source="ZWIknfvwCC6953TTr5zp-10" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontStyle=1" target="s_courses_tests">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-249.99999999999955" y="1020.291005" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sa2" edge="1" parent="1" source="ZWIknfvwCC6953TTr5zp-10" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontStyle=1" target="s_take_test">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-249.99999999999955" y="1034.010519" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sa3" edge="1" parent="1" source="ZWIknfvwCC6953TTr5zp-10" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontStyle=1" target="s_results">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-249.99999999999955" y="1042.702703" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sa4" edge="1" parent="1" source="ZWIknfvwCC6953TTr5zp-10" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontStyle=1" target="t_settings">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-249.99999999999955" y="1018.2520329999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aa1" edge="1" parent="1" source="ZWIknfvwCC6953TTr5zp-9" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontStyle=1" target="a_accounts">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-360" y="627.6767680000003" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aa2" edge="1" parent="1" source="ZWIknfvwCC6953TTr5zp-9" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontStyle=1" target="a_students_groups">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-360" y="646.6666669999995" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aa3" edge="1" parent="1" source="ZWIknfvwCC6953TTr5zp-9" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontStyle=1" target="t_settings">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-260" y="651.25" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ti1" edge="1" parent="1" source="t_courses" style="dashed=1;endArrow=open;endFill=0;html=1;rounded=0;fontSize=12;strokeWidth=1;fontFamily=Helvetica;fontStyle=1" target="t_view_courses" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ti2" edge="1" parent="1" source="t_courses" style="dashed=1;endArrow=open;endFill=0;html=1;rounded=0;fontSize=12;strokeWidth=1;fontFamily=Helvetica;fontStyle=1" target="t_view_student" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ti3" edge="1" parent="1" source="t_questions" style="dashed=1;endArrow=open;endFill=0;html=1;rounded=0;fontSize=12;strokeWidth=1;fontFamily=Helvetica;fontStyle=1;exitX=0.761;exitY=0.039;exitDx=0;exitDy=0;exitPerimeter=0;" target="t_question_type" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ti4" edge="1" parent="1" source="t_questions" style="dashed=1;endArrow=open;endFill=0;html=1;rounded=0;fontSize=12;strokeWidth=1;fontFamily=Helvetica;fontStyle=1;exitX=0.908;exitY=0.174;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t_question_content" value=" ">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ti5" edge="1" parent="1" source="t_question_media" style="dashed=1;endArrow=open;endFill=0;html=1;rounded=0;fontSize=12;strokeWidth=1;fontFamily=Helvetica;fontStyle=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="t_questions" value="«extend»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ti6" edge="1" parent="1" source="t_question_manage" style="dashed=1;endArrow=open;endFill=0;html=1;rounded=0;fontSize=12;strokeWidth=1;fontFamily=Helvetica;fontStyle=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="t_questions" value="«extend»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ti7" edge="1" parent="1" source="t_tests" style="dashed=1;endArrow=open;endFill=0;html=1;rounded=0;fontSize=12;strokeWidth=1;fontFamily=Helvetica;fontStyle=1" target="t_test_content" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ti8" edge="1" parent="1" source="t_tests" style="dashed=1;endArrow=open;endFill=0;html=1;rounded=0;fontSize=12;exitX=1;exitY=0;exitDx=0;exitDy=0;strokeWidth=1;fontFamily=Helvetica;fontStyle=1" target="t_test_settings" value="«include»">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ti9" edge="1" parent="1" source="t_test_options" style="dashed=1;endArrow=open;endFill=0;html=1;rounded=0;fontSize=12;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;fontFamily=Helvetica;fontStyle=1" target="t_tests" value="«extend»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ti11" edge="1" parent="1" source="t_assign" style="dashed=1;endArrow=open;endFill=0;html=1;rounded=0;fontSize=12;strokeWidth=1;fontFamily=Helvetica;fontStyle=1" target="t_assign_to" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ti12" edge="1" parent="1" source="t_tests" style="dashed=1;endArrow=open;endFill=0;html=1;rounded=0;fontSize=12;exitX=0.711;exitY=0.985;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=1;fontFamily=Helvetica;fontStyle=1" target="t_assign_status" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ti13" edge="1" parent="1" source="t_review" style="dashed=1;endArrow=open;endFill=0;html=1;rounded=0;fontSize=12;strokeWidth=1;fontFamily=Helvetica;fontStyle=1" target="t_answers" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ti15" edge="1" parent="1" source="t_review" style="dashed=1;endArrow=open;endFill=0;html=1;rounded=0;fontSize=12;strokeWidth=1;fontFamily=Helvetica;fontStyle=1" target="t_publish_results" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ti16" edge="1" parent="1" source="t_settings" style="dashed=1;endArrow=open;endFill=0;html=1;rounded=0;fontSize=12;strokeWidth=1;fontFamily=Helvetica;fontStyle=1" target="t_profile" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ti17" edge="1" parent="1" source="t_settings" style="dashed=1;endArrow=open;endFill=0;html=1;rounded=0;fontSize=12;strokeWidth=1;fontFamily=Helvetica;fontStyle=1" target="t_notifications" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ti18" edge="1" parent="1" source="t_settings" style="dashed=1;endArrow=open;endFill=0;html=1;rounded=0;fontSize=12;strokeWidth=1;fontFamily=Helvetica;fontStyle=1" target="t_language" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="si1" edge="1" parent="1" source="s_courses_tests" style="dashed=1;endArrow=open;endFill=0;html=1;rounded=0;fontSize=12;strokeWidth=1;fontFamily=Helvetica;fontStyle=1" target="s_view_courses" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="si2" edge="1" parent="1" source="s_courses_tests" style="dashed=1;endArrow=open;endFill=0;html=1;rounded=0;fontSize=12;strokeWidth=1;fontFamily=Helvetica;fontStyle=1" target="s_view_tests" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="si6" edge="1" parent="1" source="s_recovery" style="dashed=1;endArrow=open;endFill=0;html=1;rounded=0;fontSize=12;strokeWidth=1;fontFamily=Helvetica;fontStyle=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="s_take_test" value="«extend»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="si7" edge="1" parent="1" source="s_results" style="dashed=1;endArrow=open;endFill=0;html=1;rounded=0;fontSize=12;strokeWidth=1;fontFamily=Helvetica;fontStyle=1" target="s_view_results" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="si8" edge="1" parent="1" source="s_view_mistakes" style="dashed=1;endArrow=open;endFill=0;html=1;rounded=0;fontSize=12;strokeWidth=1;fontFamily=Helvetica;fontStyle=1" target="s_results" value="«extend»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ai1" edge="1" parent="1" source="a_accounts" style="dashed=1;endArrow=open;endFill=0;html=1;rounded=0;fontSize=12;strokeWidth=1;fontFamily=Helvetica;fontStyle=1" target="a_manage_accounts" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ai2" edge="1" parent="1" source="a_students_groups" style="dashed=1;endArrow=open;endFill=0;html=1;rounded=0;fontSize=12;strokeWidth=1;fontFamily=Helvetica;fontStyle=1" target="a_add_remove_students" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ai3" edge="1" parent="1" source="a_students_groups" style="dashed=1;endArrow=open;endFill=0;html=1;rounded=0;fontSize=12;strokeWidth=1;fontFamily=Helvetica;fontStyle=1" target="a_manage_groups" value="«include»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ai4" edge="1" parent="1" source="a_import_students" style="dashed=1;endArrow=open;endFill=0;html=1;rounded=0;fontSize=12;strokeWidth=1;fontFamily=Helvetica;fontStyle=1" target="a_students_groups" value="«extend»">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWIknfvwCC6953TTr5zp-1" edge="1" parent="1" source="t_tests" style="edgeStyle=none;html=1;endArrow=open;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontStyle=1" target="t_questions" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="670" y="370" as="sourcePoint" />
+            <mxPoint x="830" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWIknfvwCC6953TTr5zp-3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;strokeWidth=3;fontFamily=Helvetica;fontStyle=1" value="Настроить баллы" vertex="1">
+          <mxGeometry height="60" width="180" x="530" y="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWIknfvwCC6953TTr5zp-4" edge="1" parent="1" source="ZWIknfvwCC6953TTr5zp-8" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontStyle=1" target="t_assign">
+          <mxGeometry relative="1" x="-0.011" as="geometry">
+            <Array as="points" />
+            <mxPoint x="-250" y="353.90625" as="sourcePoint" />
+            <mxPoint x="330" y="302" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWIknfvwCC6953TTr5zp-5" edge="1" parent="1" source="t_questions" style="edgeStyle=none;html=1;startArrow=open;endArrow=none;startSize=12;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;exitX=0.964;exitY=0.722;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontStyle=1" target="ZWIknfvwCC6953TTr5zp-3" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="1060" y="360" as="sourcePoint" />
+            <mxPoint x="1220" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWIknfvwCC6953TTr5zp-8" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;strokeWidth=3;fontFamily=Helvetica;fontSize=12;fontStyle=1" value="Преподаватель&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="30" x="-560" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWIknfvwCC6953TTr5zp-9" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;strokeWidth=3;fontFamily=Helvetica;fontSize=12;fontStyle=1" value="Администратор" vertex="1">
+          <mxGeometry height="60" width="30" x="-560" y="597.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWIknfvwCC6953TTr5zp-10" parent="1" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;strokeWidth=3;fontFamily=Helvetica;fontSize=12;fontStyle=1" value="Студент&amp;nbsp;" vertex="1">
+          <mxGeometry height="65" width="30" x="-560" y="1065" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWIknfvwCC6953TTr5zp-28" edge="1" parent="1" source="ZWIknfvwCC6953TTr5zp-8" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontStyle=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="t_review">
+          <mxGeometry relative="1" x="-0.1205" as="geometry">
+            <Array as="points" />
+            <mxPoint x="-485" y="409" as="sourcePoint" />
+            <mxPoint x="-180" y="233" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
